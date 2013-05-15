@@ -6,8 +6,8 @@ development:
   reconnect: true
   database: comfy2
   pool: 5
-  username: admin 
-  password: 8ddTnst22X3Y 
+  username: adminbQYzKEH
+  password: dvV7DzMYyAGM
   socket: $OPENSHIFT_HOMEDIR/mysql-5.1/socket/mysql.sock
 
 # Warning: The database defined as "test" will be erased and
@@ -19,8 +19,8 @@ test:
   reconnect: true
   database: comfy2
   pool: 5
-  username: admin 
-  password: 8ddTnst22X3Y 
+  username: adminbQYzKEH
+  password: dvV7DzMYyAGM 
   socket: $OPENSHIFT_HOMEDIR/mysql-5.1/socket/mysql.sock
 
 production:
@@ -29,6 +29,6 @@ production:
   reconnect: true
   database: comfy2
   pool: 5
-  username: admin 
-  password: 8ddTnst22X3Y 
+  username: adminbQYzKEH
+  password: dvV7DzMYyAGM
   socket: $OPENSHIFT_HOMEDIR/mysql-5.1/socket/mysql.sock
