@@ -3,12 +3,12 @@
 development:
   adapter: mysql2
   encoding: utf8
-  reconnect: true
+  reconnect: false
   database: comfy2
   pool: 5
-  username: admin 
-  password: 8ddTnst22X3Y 
-  socket: $OPENSHIFT_HOMEDIR/mysql-5.1/socket/mysql.sock
+  username: root
+  password: elephant
+  socket: /var/run/mysqld/mysqld.sock
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -16,19 +16,19 @@ development:
 test:
   adapter: mysql2
   encoding: utf8
-  reconnect: true
-  database: comfy2
+  reconnect: false
+  database: comfy_test2
   pool: 5
-  username: admin 
-  password: 8ddTnst22X3Y 
-  socket: $OPENSHIFT_HOMEDIR/mysql-5.1/socket/mysql.sock
+  username: root
+  password: elephant
+  socket: /var/run/mysqld/mysqld.sock
 
 production:
- adapter: mysql2
+  adapter: mysql2
   encoding: utf8
   reconnect: true
   database: comfy2
   pool: 5
   username: admin 
   password: 8ddTnst22X3Y 
-  socket: $OPENSHIFT_HOMEDIR/mysql-5.1/socket/mysql.sock
+  socket: $OPENSHIFT_HOMEDIR/mysql-5.1/socket/mysql.sock 
