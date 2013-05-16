@@ -8,7 +8,7 @@ development:
   pool: 5
   timeout: 5000
   username: admin
-  password: p8APBgD4T21h
+  password: PLxyVTYV7_u-
 # Warning: The database defined as "test" will be erased and
 # re-generated from 3your development database when you run "rake".
 # Do not set this db to the same as development or production.
@@ -20,8 +20,7 @@ test:
   pool: 5
   timeout: 5000
   username: admin
-  password: p8APBgD4T21h
-
+  password: PLxyVTYV7_u-
 production:
   adapter: postgresql
   encoding: unicode
@@ -30,4 +29,4 @@ production:
   pool: 5
   timeout: 5000
   username: admin
-  password: p8APBgD4T21h
+  password: PLxyVTYV7_u-
