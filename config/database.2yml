@@ -32,3 +32,20 @@ production:
   username: admin 
   password: 8ddTnst22X3Y 
   socket: $OPENSHIFT_HOMEDIR/mysql-5.1/socket/mysql.sock 
+
+
+    Root User: adminbQYzKEH
+   Root Password: dvV7DzMYyAGM
+   Database Name: comfy2
+
+Connection URL: mysql://$OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT/
+
+You can manage your new MySQL database by also embedding phpmyadmin-3.4.
+The phpmyadmin username and password will be the same as the MySQL credentials above.
+
+
+Root User: admin
+   Root Password: p8APBgD4T21h
+   Database Name: comfy2
+
+Connection URL: postgresql://$OPENSHIFT_POSTGRESQL_DB_HOST:$OPENSHIFT_POSTGRESQL_DB_PORT/

@@ -6,7 +6,7 @@ gem 'rails', '3.2.11'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
-
+gem'pg'
 gem 'comfortable_mexican_sofa', :git => 'git://github.com/comfy/comfortable-mexican-sofa.git'
 gem 'mysql2'
 # Gems used only for assets and not required
